@@ -10,7 +10,7 @@
   background-color: var(--Violet);
   background-image: url('./assets/bg-desktop.svg'); /* Default desktop background */
   background-size: cover;
-   background-position: center;
+  background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 
@@ -18,4 +18,16 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+}
+
+/* Mobile background image */
+@media (max-width: 768px) {
+  :root {
+    background-image: url('./assets/bg-mobile.svg'); /* Mobile-specific background */
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
 }
