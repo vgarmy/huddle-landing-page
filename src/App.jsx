@@ -8,7 +8,7 @@ import { faFacebookF, faGithub, faInstagram } from "@fortawesome/free-brands-svg
 function App() {
   return (
     <div className="flex justify-center items-center min-h-screen w-full relative text-white" role="main">
-      <div className="w-full max-w-[1440px] flex flex-col items-center md:items-start md:flex-col px-6 md:px-0">
+      <div className="w-full max-w-[1440px] flex flex-col items-center md:items-start md:flex-col px-6">
         <div className="w-full flex justify-start mb-[6rem] md:mt-0 mt-[2rem]">
           <img src={logo} alt="Huddle Logo" className="w-[150px] md:w-[180px]" />
         </div>
